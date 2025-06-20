@@ -1,4 +1,4 @@
-# 🧠 Google Gemini Python Healthcare Demo
+# 🧠 Portfolio demonstration: Google Gemini Python Healthcare Demo
 
 Portfolio demonstration: A lightweight demo calling Google Gemini 1.5 Flash from Python to generate healthcare ML content.
 
