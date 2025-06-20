@@ -1,35 +1,37 @@
-# 💡 Gemini API Healthcare Demo
+# 🧠 Google Gemini Python Healthcare Demo
 
-This Jupyter notebook demonstrates how to use the `google-generativeai` Python SDK to interact with **Gemini 1.5 Flash** and generate useful content for healthcare machine learning scenarios.
+This notebook demonstrates how to call the **Google Gemini 1.5 Flash API** from **Python** to generate healthcare-related ML content using LLMs.
 
-## 🔍 What It Does
-- Connects to the Gemini API via Python
-- Sends a prompt asking to summarize the role of ML in healthcare
-- Prints a structured, markdown-style answer suitable for reports, posts, or presentations
+It serves as a lightweight, transparent portfolio project for showcasing:
+- Python integration with GenAI APIs
+- Prompt engineering for domain-specific tasks
+- A foundation for building healthcare AI assistants
 
-## 📂 Files Included
-- `gemini_healthcare_demo.ipynb`: Jupyter notebook to run and modify
-- `README.md`: This file
+---
 
-## 🚀 How to Use
+## 🔧 Tech Stack
 
-1. Clone this repo or download the notebook
-2. Install dependencies in your virtual environment:
+- Python 3.10+
+- Jupyter Notebook
+- `google-generativeai` SDK
+- Google Gemini 1.5 Flash
+- GenAI prompt-based content generation
+
+---
+
+## 💡 Use Case Example
+
+Healthcare ML content generation, such as:
+- Explaining the role of ML in healthcare
+- Drafting summaries for domain-specific documentation
+- Mock assistants for SOP and training content
+
+---
+
+## 📦 Setup
+
+1. Clone the repo  
+2. Create a virtual environment (optional):
    ```bash
-   pip install --break-system-packages google-generativeai
-   ```
-3. Open the notebook:
-   ```bash
-   jupyter lab
-   ```
-4. Replace the placeholder `your-api-key-here` with your [Gemini API key](https://makersuite.google.com/app/apikey)
-5. Run all cells
-
-## 📌 Notes
-- The notebook uses `gemini-1.5-flash`, which has more generous free-tier limits than `gemini-1.5-pro`
-
-## 🧠 Prompt Example
-
-> Summarize the role of machine learning in healthcare.
-
-Enjoy building with GenAI!
+   python3 -m venv venv
+   source venv/bin/activate
