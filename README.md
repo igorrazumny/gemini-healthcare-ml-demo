@@ -27,8 +27,6 @@ This Jupyter notebook demonstrates how to use the `google-generativeai` Python S
 
 ## 📌 Notes
 - The notebook uses `gemini-1.5-flash`, which has more generous free-tier limits than `gemini-1.5-pro`
-- You can swap the prompt or model as needed
-- Ideal for GitHub portfolios, ML demos, or internal training
 
 ## 🧠 Prompt Example
 
