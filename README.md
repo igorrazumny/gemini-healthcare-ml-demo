@@ -3,9 +3,9 @@
 This notebook demonstrates how to call the **Google Gemini 1.5 Flash API** from **Python** to generate healthcare-related ML content using LLMs.
 
 It serves as a lightweight, transparent portfolio project for showcasing:
-- Python integration with GenAI APIs
-- Prompt engineering for domain-specific tasks
-- A foundation for building healthcare AI assistants
+- Python integration with Google GenAI APIs
+- Prompt engineering for domain-specific use cases
+- A foundation for healthcare AI assistants, documentation, and training tools
 
 ---
 
@@ -15,23 +15,23 @@ It serves as a lightweight, transparent portfolio project for showcasing:
 - Jupyter Notebook
 - `google-generativeai` SDK
 - Google Gemini 1.5 Flash
-- GenAI prompt-based content generation
+- Generative prompt-based content generation
 
 ---
 
-## 💡 Use Case Example
+## 💡 Example Use Cases
 
-Healthcare ML content generation, such as:
-- Explaining the role of ML in healthcare
-- Drafting summaries for domain-specific documentation
-- Mock assistants for SOP and training content
+- Summarizing healthcare-specific ML applications
+- Auto-generating SOP documentation blurbs
+- Building prototype assistants for regulated domains
 
 ---
 
-## 📦 Setup
+## 📦 How to Run
 
-1. Clone the repo  
-2. Create a virtual environment (optional):
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+```bash
+# Install dependencies
+pip install --break-system-packages google-generativeai
+
+# Open the notebook and insert your API key
+jupyter lab
