@@ -1,6 +1,6 @@
 # 🧠 Google Gemini Python Healthcare Demo
 
-This notebook demonstrates how to call the **Google Gemini 1.5 Flash API** from **Python** to generate healthcare-related ML content using LLMs.
+Portfolio demonstration: A lightweight demo calling Google Gemini 1.5 Flash from Python to generate healthcare ML content.
 
 It serves as a lightweight, transparent portfolio project for showcasing:
 - Python integration with Google GenAI APIs
